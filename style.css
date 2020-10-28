@@ -1,0 +1,23 @@
+body {
+    background-color: #fff;
+}
+.panel {
+    background-image: url('./img/background-flowers.svg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.can {
+    display: flex;
+    height: 100%;
+    /* padding: 5rem; */
+    /* justify-content: center; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.can>img {
+    max-width: 371px;
+}
